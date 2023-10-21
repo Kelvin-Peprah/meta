@@ -1,0 +1,1 @@
+This is html and css personal project that clones Meta's website homepage.
