@@ -18,3 +18,8 @@ li {
   list-style-type: none;
   padding: 5px;
 }
+
+.downward-greater-than {
+  transform: rotate(90deg);
+  display: inline-block;
+}
