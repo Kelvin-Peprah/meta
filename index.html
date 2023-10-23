@@ -10,6 +10,8 @@
     <link rel="icon" href="images/logo/favicon.png">
     <link rel="stylesheet" href="style/text.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/main.css">
 
     <script src="https://kit.fontawesome.com/dcde668d33.js" crossorigin="anonymous"></script>
 
@@ -17,37 +19,56 @@
   <body>
     <div class="header">
       <div class="delivery-icon">
-        <i class="fa-thin fa-truck"></i>
+        <i class="fa-thin fa-truck" style="color: #ffffff;"></i>
         <p>Free delivery</p>
       </div>
-      <div>
+      <div class="trial-icon">
+        <i class="fa-thin fa-comments-dollar" style="color: #ffffff;"></i>
         <p>Worry-free trial</p>
       </div>
       <div class="warranty-icon">
-        <i class="fa-thin fa-shield-halved" style="color: #000000;"></i>
+        <i class="fa-thin fa-shield-halved" style="color: #ffffff;"></i>
         <p>Warranty</p>
       </div>
     </div>
 
     <div class="main-header">
-      <img src="images/logo/Meta-Logo.png" alt="meta logo" width="100px">
-      <div>Meta Quest</div>
-      <div>Ray-Ban | Meta</div>
-      <div>About Meta</div>
-      <div>Support</div>
-      <input type="text" placeholder="Search Meta Store" disabled>
-      <img src="images/svg/shopping-bag.svg" alt="" width="20px">
-      <img src="images/logo/user logo.png" alt="user logo" width="20px">
+      <div class="left-section">
+        <img class="logo" src="images/logo/Meta-Logo.png" alt="meta logo">
+        <div class="meta-quest">
+          <div>Meta Quest</div>
+          <div class="downward-greater-than">></div>
+        </div>
+        <div class="ray">
+          <div>Ray-Ban | Meta</div>
+          <div class="downward-greater-than">></div>
+        </div>  
+      </div>
+      <div class="right-section">
+        <div>About Meta</div>
+        <div>Support</div>
+        <div class="search-container">
+          <img class="search-icon" src="images/search icon.png" alt="search-icon">
+          <p id="search-store">Search Meta Store</p>
+        </div>
+        <img src="images/svg/shopping-bag.svg" alt="shooping bag icon icon">
+        <img src="images/logo/user logo.png" alt="user logo">
+      </div>  
     </div>
 
-    <div>
-      <p>Introducing Meta Quest 3</p>
-      <p>Dive into extraordinary experiences with our powerful new mixed reality headset—from $499.99 USD.</p>
-      <button>Buy now</button>
-      <a href="https://www.meta.com/quest/quest-3">
-        <div>&gt;</div>
-        learn more
-      </a>
+    <div class="section-1">
+      <div class="section-1-info">
+        <p class="section-header">Introducing Meta Quest 3</p>
+        <p>Dive into extraordinary experiences with our powerful new mixed reality headset—from $499.99 USD.</p>
+        <button>Buy now</button>
+        <a href="https://www.meta.com/quest/quest-3">
+          <div>&gt;</div>
+          learn more
+        </a>
+      </div>
+      <video autoplay loop muted plays-inline class="background-video">
+        <source src="videos/This is Meta Quest 3_3.mp4" type="video/mp4">
+      </video> 
     </div>
 
     <div>

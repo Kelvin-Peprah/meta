@@ -3,4 +3,5 @@
 .downward-greater-than {
   transform: rotate(90deg);
   display: inline-block;
+  font-weight: bold;
 }
