@@ -1,5 +1,7 @@
 body {
   margin: 0;
+}
 
-  font-family: Montserrat, Helvetica,Arial,Noto Sans,sans-serif;
+* {
+  font-family: Roboto, Arial;
 }
