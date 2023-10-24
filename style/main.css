@@ -301,8 +301,11 @@
   display: flex;
   justify-content: space-around;
   margin: 50px 0;
-  padding: 50px 30px;
+  padding: 80px 30px;
   flex: 3000px 1;
+
+  color: rgb(70, 90, 105);
+  border-bottom:  1px solid rgb(70, 90, 105);
 }
 
 .section-6-header {
@@ -327,9 +330,20 @@ gap: 20px;
   width: 300px;
   padding: 20px 100px 20px 10px;
   width: 500px;
+  border: 1px solid rgb(70, 90, 105);
+  border-radius: 2px;
+}
+
+.section-6-input::placeholder {
+  color: rgb(70, 90, 105);
 }
 
 .agree{
   font-size: 13px;
+
+}
+
+.agree a {
+  color: rgb(70, 90, 105);
 }
 
