@@ -237,6 +237,7 @@
   width: 700px;
   text-align: center;
   margin: 0;
+  color: rgb(28, 43, 51);
 }
 
 .game {
@@ -305,7 +306,7 @@
   flex: 3000px 1;
 
   color: rgb(70, 90, 105);
-  border-bottom:  1px solid rgb(70, 90, 105);
+  border-bottom:  1px solid rgb(222, 225, 228);
 }
 
 .section-6-header {
@@ -330,7 +331,7 @@ gap: 20px;
   width: 300px;
   padding: 20px 100px 20px 10px;
   width: 500px;
-  border: 1px solid rgb(70, 90, 105);
+  border: 1px solid rgb(222, 225, 228);
   border-radius: 2px;
 }
 
