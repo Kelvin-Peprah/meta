@@ -16,11 +16,17 @@
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/main.css">
 
-    <script src="https://kit.fontawesome.com/dcde668d33.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="delivery-icon">
         <i class="fa-thin fa-truck" style="color: #ffffff;"></i>
         <p>Free delivery</p>
@@ -33,11 +39,13 @@
         <i class="fa-thin fa-shield-halved" style="color: #ffffff;"></i>
         <p>Warranty</p>
       </div>
-    </div>
+    </header>
 
-    <div class="main-header">
+    <nav class="nav-header">
       <div class="left-section">
-        <img class="logo" src="images/logo/Meta-Logo.png" alt="meta logo">
+        <a href="https://www.meta.com/">
+          <img class="logo" src="images/logo/Meta-Logo.png" alt="meta logo">
+        </a>
         <div class="meta-quest">
           <div>Meta Quest</div>
           <div class="downward-greater-than">></div>
@@ -54,171 +62,191 @@
           <img class="search-icon" src="images/search icon.png" alt="search-icon">
           <p id="search-store">Search Meta Store</p>
         </div>
-        <img src="images/svg/shopping-bag.svg" alt="shooping bag icon icon">
-        <img src="images/logo/user logo.png" alt="user logo">
+        <img src="images/icons/icons8-shopping-bag-64.png" alt="shopping bag icon">
+        <img src="images/icons/icons8-user-icon-30.png" alt="user logo">
+      </div>
+    </nav>
+    <!--
+    <nav id="nav-header-2">
+      <div>
+        <img src="images/logo/icons8-menu-30.png" alt="">
+      </div>
+      <div >
+        <a href="https://www.meta.com/">
+          <img class="logo" src="images/logo/Meta-Logo.png" alt="meta logo">
+        </a>
       </div>  
-    </div>
+      <div class="last-section">
+        <div>
+          <img class="icons" src="images/search icon.png" alt="search-icon">
+        </div>
+        <div>
+          <img class="icons" src="images/icons/icons8-shopping-bag-64.png" alt="shopping bag icon">
+        </div>
+      </div>
+    </nav>
+    -->
+    <main>
+      <section id="section-1">
+        <div class="section-1-info">
+          <h1 class="section-header">Introducing Meta Quest 3</h1>
+          <p class="section-header-info">Dive into extraordinary experiences with our powerful new mixed reality headset—from $499.99 USD.</p>
+          <div class="section-1-quest">
+            <button class="buy">Buy now</button>
+            <div>
+              <a class="learn" href="https://www.meta.com/quest/quest-3">
+                <div class="greater-than">&gt;</div>
+                <p class="learn-more">Learn more</p>
+              </a>
+            </div>
+          </div>
+          <p class="ghost">Ghostbusters: Rise of the Ghost Lord</p>
+        </div>
+        <video autoplay loop muted plays-inline id="background-video">
+          <source src="videos/This is Meta Quest 3_3.mp4" type="video/mp4">
+        </video> 
+      </section>
 
-    <div id="section-1">
-      <div class="section-1-info">
-        <h1 class="section-header">Introducing Meta Quest 3</h1>
-        <p class="section-header-info">Dive into extraordinary experiences with our powerful new mixed reality headset—from $499.99 USD.</p>
-        <div class="section-1-quest">
-          <button class="buy">Buy now</button>
+      <section id="section-2">
+        <div class="div1">
+          <p class="shop">Shop Meta products</p>
+          <p class="section-2-info">The future of virtual reality and augmented reality is here.</p>
+    
+          <div class="shop-products">
+            <div class="product">
+              <a href="https://www.meta.com/quest/">
+                <img class="product-image" src="images/shop products/Meta Quest.webp" alt="Meta Quest acessory">
+              </a>
+              <p>Meta Quest</p>
+              <a href="https://www.meta.com/quest/">
+                <button class="button-2">Shop now</button>
+              </a>
+            </div>
+            <div class="product">
+              <a href="https://www.meta.com/quest/accessories/">
+                <img class="product-image" src="images/shop products/Meta Quest accessories.webp" alt="Meta Quest accessories">
+              </a>
+              <p>Meta Quest accessories</p>
+              <a href="https://www.meta.com/quest/accessories/">
+                <button class="button-2">Shop now</button>
+              </a>
+            </div>
+            <div class="product">
+              <a href="https://www.meta.com/smart-glasses/">
+                <img class="product-image" src="images/shop products/Meta smart glasses.webp" alt="Meta smart glasses">
+              </a>
+              <p>Ray-Ban | Meta smart glasses</p>
+              <a href="https://www.meta.com/smart-glasses/">
+                <button class="button-2">Shop now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="section-3">
+        <!--background image here-->\
+        <div class="section-3-container">
           <div>
-            <a class="learn" href="https://www.meta.com/quest/quest-3">
+            <img src="images/background/mt.webp" alt="">
+          </div>
+          <p class="section-3-title">The next generation of smart glassess</p>
+          <p class="section-3-info">Capture, livestream and connect with hands-free calls and messages—while sparking your creativity and controlling features with Meta AI.</p>
+          <div>
+            <a class="learn" href="https://www.meta.com/smart-glasses/">
               <div class="greater-than">&gt;</div>
-              <p class="learn-more">Learn more</p>
+              Learn more
             </a>
           </div>
         </div>
-      </div>
-      <div class="empty">
-
-      </div>
-      <video autoplay loop muted plays-inline id="background-video">
-        <source src="videos/This is Meta Quest 3_3.mp4" type="video/mp4">
-      </video> 
-      <p class="ghost">Ghostbusters: Rise of the Ghost Lord</p>
-    </div>
-
-    <div id="section-2">
-      <p class="shop">Shop Meta products</p>
-      <p class="section-2-info">The future of virtual reality and augmented reality is here.</p>
-
-      <div class="shop-products">
-        <div class="product">
-          <a href="https://www.meta.com/quest/">
-            <img src="images/shop products/Meta Quest.webp" alt="Meta Quest acessory">
-          </a>
-          <p>Meta Quest</p>
-          <a href="https://www.meta.com/quest/">
-            <button class="button-2">Shop now</button>
-          </a>
+      </section>
+  
+      <section id="section-4">
+        <p class="section-4-title">Explore games and experiences on Meta Quest</p>
+        <button class="button-2">Browse apps &amp; games</button>
+        <div class="game">
+          <div>
+            <a class="game-container" href="https://www.meta.com/quest/roblox/">
+              <img src="images/games/roblox.webp" alt="roblox game">
+              <p>Roblox</p>
+            </a>
+          </div>
+          <div>
+            <a class="game-container" href="https://www.meta.com/quest/asgards-wrath-2/">
+              <img src="images/games/Asgard wrath.webp" alt="Asgard wrath game">
+              <p>Asgard's Wrath 2</p>
+            </a>
+          </div>
+          <div>
+            <a class="game-container" href="https://www.meta.com/experiences/5821833171264888/">
+              <img src="images/games/peacock.webp" alt="peacock game">
+              <p>Peacock</p>
+            </a>
+          </div>
+          <div>
+            <a class="game-container" href="https://www.meta.com/experiences/1830168170427369/">
+              <img src="images/games/supernatural.webp" alt="supernatural game">
+              <p>Supernatural</p>
+            </a>
+          </div>
+          <div>
+            <a class="game-container" href="https://www.meta.com/meta-quest-plus/">
+              <img src="images/games/Meta Quest+.webp" alt="Meta Quest+ game">
+              <p>Meta Quest+</p>
+            </a>
+          </div>
         </div>
-        <div class="product">
-          <a href="https://www.meta.com/quest/accessories/">
-            <img src="images/shop products/Meta Quest accessories.webp" alt="Meta Quest accessories">
-          </a>
-          <p>Meta Quest accessories</p>
-          <a href="https://www.meta.com/quest/accessories/">
-            <button class="button-2">Shop now</button>
-          </a>
+      </section>
+  
+      <section id="section-5">
+        <div class="section-5-title">
+          <div class="downward-greater-than">></div>
+          <div>Latest news</div>
         </div>
-        <div class="product">
-          <a href="https://www.meta.com/smart-glasses/">
-            <img src="images/shop products/Meta smart glasses.webp" alt="Meta smart glasses">
-          </a>
-          <p>Ray-Ban | Meta smart glasses</p>
-          <a href="https://www.meta.com/smart-glasses/">
-            <button class="button-2">Shop now</button>
-          </a>
+        <div class="section-5-container" >
+          <div>
+            <a class="section-5-images" href="https://www.meta.com/blog/quest/meta-quest-3-pre-orders-asgards-wrath-2-bundle-vr-mr-headset-price/">
+              <img src="images/news/meta quest 3.webp" alt="Meta quest 3">
+              <p>Meta Quest 3: The first Mass-Market Mixed Reality Headset</p>
+            </a>
+          </div>
+          <div>
+            <a class="section-5-images" href="https://www.meta.com/blog/quest/ray-ban-meta-smart-glasses-collection-pre-orders/">
+              <img src="images/news/meta next gen.webp" alt="a guy with glasses sitting on the floor">
+              <p>Introducting the Next Generation Ray-Ban | Meta Smart Glasses Collection</p>
+            </a>
+          </div>
+          <div>
+            <a class="section-5-images" href="https://www.meta.com/blog/quest/connect-2023-quest-3-ai-ray-ban-smart-glasses-metaverse/">
+              <img src="images/news/meta connect.webp" alt="meta connect picture">
+              <p>Meta Connect 2023 Keynote Recap</p>
+            </a>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="section-3">
-      <!--background image here-->\
-      <div class="section-3-container">
-        <div>
-          <img src="images/background/mt.webp" alt="">
+      </section>
+  
+      <section id="section-6">
+        <div class="section-6-header">
+          <p>KEEP YOUR EXPERIENCE UP TO DATE</p>
         </div>
-        <p class="section-3-title">The next generation of smart glassess</p>
-        <p class="section-3-info">Capture, livestream and connect with hands-free calls and messages—while sparking your creativity and controlling features with Meta AI.</p>
-        <div>
-          <a class="learn" href="https://www.meta.com/smart-glasses/">
-            <div class="greater-than">&gt;</div>
-            Learn more
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div id="section-4">
-      <p class="section-4-title">Explore games and experiences on Meta Quest</p>
-      <button class="button-2">Browse apps &amp; games</button>
-      <div class="game">
-        <div>
-          <a class="game-container" href="https://www.meta.com/quest/roblox/">
-            <img src="images/games/roblox.webp" alt="roblox game">
-            <p>Roblox</p>
-          </a>
-        </div>
-        <div>
-          <a class="game-container" href="https://www.meta.com/quest/asgards-wrath-2/">
-            <img src="images/games/Asgard wrath.webp" alt="Asgard wrath game">
-            <p>Asgard's Wrath 2</p>
-          </a>
-        </div>
-        <div>
-          <a class="game-container" href="https://www.meta.com/experiences/5821833171264888/">
-            <img src="images/games/peacock.webp" alt="peacock game">
-            <p>Peacock</p>
-          </a>
-        </div>
-        <div>
-          <a class="game-container" href="https://www.meta.com/experiences/1830168170427369/">
-            <img src="images/games/supernatural.webp" alt="supernatural game">
-            <p>Supernatural</p>
-          </a>
-        </div>
-        <div>
-          <a class="game-container" href="https://www.meta.com/meta-quest-plus/">
-            <img src="images/games/Meta Quest+.webp" alt="Meta Quest+ game">
-            <p>Meta Quest+</p>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div id="section-5">
-      <div class="section-5-title">
-        <div class="downward-greater-than">></div>
-        <div>Latest news</div>
-      </div>
-      <div class="section-5-container" >
-        <div>
-          <a class="section-5-images" href="https://www.meta.com/blog/quest/meta-quest-3-pre-orders-asgards-wrath-2-bundle-vr-mr-headset-price/">
-            <img src="images/news/meta quest 3.webp" alt="Meta quest 3">
-            <p>Meta Quest 3: The first Mass-Market Mixed Reality Headset</p>
-          </a>
-        </div>
-        <div>
-          <a class="section-5-images" href="https://www.meta.com/blog/quest/ray-ban-meta-smart-glasses-collection-pre-orders/">
-            <img src="images/news/meta next gen.webp" alt="a guy with glasses sitting on the floor">
-            <p>Introducting the Next Generation Ray-Ban | Meta Smart Glasses Collection</p>
-          </a>
-        </div>
-        <div>
-          <a class="section-5-images" href="https://www.meta.com/blog/quest/connect-2023-quest-3-ai-ray-ban-smart-glasses-metaverse/">
-            <img src="images/news/meta connect.webp" alt="meta connect picture">
-            <p>Meta Connect 2023 Keynote Recap</p>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div id="section-6">
-      <div class="section-6-header">
-        <p>KEEP YOUR EXPERIENCE UP TO DATE</p>
-      </div>
-      <form class="section-6-container">
-        <div class="input-container">
-          <input class="section-6-input" type="text" placeholder="Get messages and updates from Meta" required>
-          <button class="button-2" type="submit">Sign Up</button>
-        </div>
-        <div>
-          <p class="agree">
-            By signing up you agree to receive updates and marketing messages (e.g. email, social, etc.) from Meta about Meta’s existing and future products and services.
-          </p>
-          <p class="agree">
-            You may withdraw your consent and unsubscribe at any time by clicking the unsubscribe link included in our messages.
-          </p>
-          <p class="agree">
-            Your subscription is subject to the <a href="https://web.facebook.com/terms/?_rdc=1&_rdr">Terms</a> and <a href="https://free.facebook.com/privacy/policy/#">Privacy Policy.</a>
-          </p>
-        </div>
-      </form>
-    </div>
+        <form id="section-6-container">
+          <div class="input-container">
+            <input class="section-6-input" type="text" placeholder="Get messages and updates from Meta" required>
+            <button class="button-2" type="submit">Sign Up</button>
+          </div>
+          <div>
+            <p class="agree">
+              By signing up you agree to receive updates and marketing messages (e.g. email, social, etc.) from Meta about Meta’s existing and future products and services.
+            </p>
+            <p class="agree">
+              You may withdraw your consent and unsubscribe at any time by clicking the unsubscribe link included in our messages.
+            </p>
+            <p class="agree">
+              Your subscription is subject to the <a href="https://web.facebook.com/terms/?_rdc=1&_rdr">Terms</a> and <a href="https://free.facebook.com/privacy/policy/#">Privacy Policy.</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
